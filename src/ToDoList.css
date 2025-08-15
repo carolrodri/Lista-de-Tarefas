@@ -72,6 +72,7 @@ button.add:hover {
 }
 
 .item span {
+    text-align: start;
     width: 100%;
     color: white;
     margin-right: 10px;
@@ -89,6 +90,7 @@ button.add:hover {
 }
 
 .item.completo span {
+    text-align: start;
     width: 100%;
     color: #4d506e;
     margin-right: 10px;
@@ -124,11 +126,16 @@ button.deleteAll {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 button.deleteAll:hover {
     background: #ff004c;
     color: white;
+}
+
+.icone-central {
+    max-width: 100%;
 }
 
 @media screen and (max-width: 900px) {
